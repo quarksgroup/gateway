@@ -1,199 +1,339 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<html>
+  <head>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gateway website</title>
-
-    <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
-    <!-- custom css file link  -->
-    <link rel="stylesheet" href="css/style.css">
-
-</head>
-<body>
+    <title>Design.Diva</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- normalize css -->
+    <link rel = "stylesheet" href = "resources/normalize.css">
+    <!-- font -->
+    <link rel = "stylesheet" href = "resources/font.css">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <!-- magnific popup -->
+    <link rel = "stylesheet" href = "resources/Magnific-Popup-master/dist/magnific-popup.css">
+    <!-- owl carousel -->
+    <link rel = "stylesheet" href = "resources/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
+    <link rel = "stylesheet" href = "resources/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css">
+    <!-- animate css -->
+    <link rel = "stylesheet" href = "resources/animate.css-main/animate.css">
+    <!-- custom (main) css -->
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
     
-<!-- header section starts  -->
+    <!-- header -->
+    <header class = "header" id = "intro">
+      <nav class = "navbar">
+        <div class = "container">
+          <div class = "brand-and-toggler">
+            <a href = "#" class = "navbar-brand">
+              Gateway<span>.</span>
+            </a>
+            <button type = "button" class = "navbar-toggler" id = "navbar-toggler">
+              <i class = "fas fa-bars"></i>
+            </button>
+          </div>
 
-<header class="header">
-
-    <a href="#" class="logo"> <i class="fa fa-medkit"></i> gateway. </a>
-
-    <nav class="navbar">
-        <a href="#home">home</a>
-        <a href="#about">about</a>
-        <a href="#services">services</a>
-        <a href="#products">products</a>
-        <a href="#message">message</a>
-    </nav>
-
-    <div id="menu-btn" class="fas fa-bars"></div>
-
-</header>
-
-<!-- header section ends -->
-
-<!-- home section starts  -->
-
-<section class="home" id="home">
-
-    <div class="image">
-        <img src="image/home-img.svg" alt="">
-    </div>
-
-    <div class="content">
-        <h3>Gateway</h3>
-        <p>Gateway wants to make it easy for all women..</p>
-         <a href="#footer" class="btn"> contact us <span class="fas fa-chevron-right"></span> </a>
-    </div>
-
-</section>
-
-<!-- home section ends -->
-
-
-<!-- about section starts  -->
-
-<section class="about" id="about">
-
-    <h1 class="heading"> <span>about</span> us </h1>
-
-    <div class="row">
-
-        <div class="image">
-            <img src="image/about-img.svg" alt="" class="filter-green">
+          <div class = "navbar-collapse">
+            <ul class = "navbar-nav">
+              <li class = "nav-item">
+                <a href = "#intro" class = "nav-link">Home</a>
+              </li>
+              <li class = "nav-item">
+                <a href = "#services" class = "nav-link">Services</a>
+              </li>
+              <li class = "nav-item">
+                <a href = "#about" class = "nav-link">About</a>
+              </li>
+              <li class = "nav-item">
+                <a href = "#products" class = "nav-link">Products</a>
+              </li>
+              <li class = "nav-item">
+                <a href = "#footer" class = "nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
 
-        <div class="content">
-            <h3>we take care of your healthy life</h3>
-            <p>Gateway wants to make it easy for all women to get the health & self-care products and information they need to live their best lives, especially women in low-income rural areas of emerging markets. </p>
-            <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+      <div class = "hero-div center container">
+        <h1>Gateway</h1>
+        <p class = "animate__animated animate__fadeInUp animate__slow">Gateway Wants To Make It Easy For All Women..</p>
+
+        <div class = "hero-btns animate__animated animate__fadeInUp animate__slow">
+          <a href="#about"><button type = "button" class = "btn-trans">learn more</button></a>
+          <a href="#footer"><button type = "button" class = "btn-white">contact</button></a>
         </div>
+      </div>
+    </header>
+    <!-- end of header -->
 
-    </div>
-
-</section>
-
-<!-- about section ends -->
-
-
-<!-- icons section starts  -->
-
-<section class="" id="services">
-    <h1 class="heading"> our <span>Services</span> </h1>
-    <div class="icons-container">
-    
 
     
+    <!-- features section -->
+    <section class = "feature" id = "services">
+      <div class = "container">
+        <div class = "row">
+          <div class = "feature-left wow animate__animated animate__fadeInUp animate__slow">
+            <img src = "assets/managed_services.jpg" alt = "">
+          </div>
+          <div class = "feature-right wow animate__animated animate__fadeInUp animate__slow">
+            <div class = "title">
+              <h2>Our Services</h2>
+              <!-- <p class = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio earum fugiat culpa laborum porro modi?</p> -->
+            </div>
 
-    <div class="icons">
-        <!-- <i class="fas fa-procedures"></i> -->
-        <p>We  provide services in secondary schools through clubs that are in place to address early pregnancies and number of young people with STD's such as HIV and AIDS. This helps young people with mental health issues associated with shame, or consequences of misinformation.</p>
-    </div>
+            <div class = "feature-item">
+              <span><i class = "fas fa-clone"></i></span>
+              <div>
+                <!-- <h3>Responsive Design</h3> -->
+                <p class = "text">We  Provide Services In Secondary Schools Through Clubs That Are In Place To Address Early Pregnancies And Number Of Young People With STD's Such As HIV And AIDS. This Helps Young People With Mental Health Issues Associated With Shame, Or Consequences Of Misinformation.</p>
+              </div>
+            </div>
 
-    <div class="icons">
-        <!-- <i class="fas fa-hospital"></i> -->
-        <p>We offer a platform where women can interact over the same topics of interest with experts. Gynecologists, gender activists, etc</p>
-    </div>
-</div>
-
-</section>
-
-<!-- icons section ends -->
-
-
-<!-- products section starts  -->
-
-<section class="services" id="products">
-
-    <h1 class="heading"> our <span>products</span> </h1>
-
-    <div class="box-container">
-
-        <div class="box">
-            <!-- <i class="fas fa-notes-medical"></i> -->
-            <h3>Menstrual</h3>
-            <ul>
-                <li>Pads</li>
-                <li>panty liners</li>
-                <li>cups</li>
-                <li> tampons</li>
-            </ul>
-            
+            <div class = "feature-item">
+              <span><i class = "fas fa-clone"></i></span>
+              <div>
+                <!-- <h3>Retina Ready</h3> -->
+                <p class = "text">We Offer A Platform Where Women Can Interact Over The Same Topics Of Interest With Experts. Gynecologists, Gender Activists, Etc</p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+    </section>
+    <!-- end of features section -->
 
-        <div class="box">
-            <!-- <i class="fas fa-ambulance"></i> -->
-            <h3>Body</h3>
-            <ul>
-                <li> shaving cream</li>
-                <li> lip gloss</li>
-                <li>  makeup</li>
-            </ul>
-            
-        </div>
-
-        <div class="box">
-            <!-- <i class="fas fa-user-md"></i> -->
-            <h3>Contraceptives</h3>
-            <ul>
-                <li> condoms</li>
-                <li>  plan B pills</li>
-                <li>  pregnancy tests</li>
-            </ul>
-            
-        </div>
-
-        <div class="box">
-            <!-- <i class="fas fa-pills"></i> -->
-            <h3>Cleaning</h3>
-            <ul>
-                <li> wipes</li>
-                <li> toilet paper</li>
-            </ul>
-            
-        </div>
-
-        <div class="box">
-            <!-- <i class="fas fa-procedures"></i> -->
-            <h3> Facial care products </h3>
-            
-        </div>
-
+    <!-- sample video section -->
+    <section class = "video" id="about">
+      <div class = "container">
         
+        <h2 class = "wow animate__animated animate__fadeInUp animate__slow">Gateway</h2>
+        <p class = "wow animate__animated animate__fadeInUp animate__slow">Gateway Wants To Make It Easy For All Women To Get The Health & Self-Care Products And Information They Need To Live Their Best Lives, Especially Women In Low-Income Rural Areas Of Emerging Markets.</p>
+      </div>
+    </section>
+    <!-- end of sample video section -->
+
+
+   
+
+    <!-- pricing section -->
+    <section class = "pricing" id = "products">
+      <div class = "container">
+        <div class = "title">
+          <h2 class = "wow animate__animated animate__bounceIn animate__slow">Our Products</h2>
+        </div>
+
+        <div class = "row wow animate__animated animate__fadeInUp animate__slow">
+          <div class = "pricing-item">
+            <h2>Menstrual</h2>
+            <ul>
+              <li>Pads</li>
+                <li> Liners</li>
+                <li>Cups</li>
+                <li>Tampons</li>
+            </ul>
+          </div>
+
+          <div class = "pricing-item">
+            <h2>Body</h2>
+            
+            <ul>
+              <li>Shaving Cream</li>
+              <li>Lip Gloss</li>
+              <li>Makeup</li>
+
+
+            </ul>
+          </div>
+
+          <div class = "pricing-item">
+            <h2>Contraceptives</h2>
+            
+            <ul>
+              <li>Condoms</li>
+              <li>Plan B Pills</li>
+              <li>Pregnancy Tests</li>
+
+
+            </ul>
+          </div>
+          <div class = "pricing-item">
+            <h2>Cleaning</h2>
+            
+            <ul>
+              <li>Wipes</li>
+              <li>Toilet Paper</li>
+
+            </ul>
+          </div>
+          <div class = "pricing-item">
+            <h2>Facial Care Products</h2>
+            
+            <ul>
+              <li></li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of pricing section -->
+
+  
+
+   
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" id="footer">
+    <div class="container">
+
+      <div class="footer-top">
+
+        <div class="footer-brand">
+
+          <a href="#intro" class="logo">Gateway</a>
+
+          <p class="section-text">
+            Gateway Wants To Make It Easy For All Women To Get The Health & Self-Care Products And Information They Need To Live Their Best Lives, Especially Women In Low-Income Rural Areas Of Emerging Markets
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list explore">
+
+          <li>
+            <p class="footer-list-title">Explore</p>
+          </li>
+
+          <li>
+            <a href="#about" class="footer-link">
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+              <span class="span">About Us</span>
+            </a>
+          </li>
+
+          
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Useful Links</p>
+          </li>
+
+          <li>
+            <a href="#intro" class="footer-link">
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#services" class="footer-link">
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+              <span class="span">Services</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#products" class="footer-link">
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+              <span class="span">Products</span>
+            </a>
+          </li>
+
+         
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contact Info</p>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+
+            <address class="footer-link">
+              Kigali - Rwanda
+            </address>
+          </li>
+
+          
+
+          <li class="footer-item">
+            <ion-icon name="call" aria-hidden="true"></ion-icon>
+
+            <a href="tel:+250788716164" class="footer-link">0788716164</a>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+            <a href="mailto:contact@eduhome.com" class="footer-link">contact@eduhome.com</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      
 
     </div>
-
-</section>
-
-<!-- products section ends -->
+  </footer>
 
 
 
-<section class="message" id="message">
 
-    <h1 class="heading"> <span>Message Us</span> now </h1>    
 
-    <div class="row">
+  <!-- 
+    - #BACK TO TOP
+  -->
 
-        <div class="image">
-            <img src="image/book-img.svg" alt="">
-        </div>
-
-        <form action="">
-            <h3>Message us now</h3>
-            <input type="text" placeholder="your name" class="box">
-            <input type="number" placeholder="your number" class="box">
-            <input type="email" placeholder="your email" class="box">
-            <textarea type="text" class="box" placeholder="your message"></textarea>
-            <input type="submit" value="send now" class="btn">
-        </form>
-
-    </div>
-
-</section>
+  <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+    <ion-icon name="arrow-up"></ion-icon>
+  </a>
 
 
 
@@ -201,64 +341,15 @@
 
 
 
-<!-- footer section starts  -->
-
-<section class="footer" id="footer">
-
-    <div class="box-container">
-
-        <div class="box">
-            <h3>quick links</h3>
-            <a href="#"> <i class="fas fa-chevron-right"></i> home </a>
-            <a href="#about"> <i class="fas fa-chevron-right"></i> about </a>
-            <a href="#services"> <i class="fas fa-chevron-right"></i> services </a>
-            <a href="#products"> <i class="fas fa-chevron-right"></i> products </a>
-            <a href="#message"> <i class="fas fa-chevron-right"></i> message </a>
-        </div>
-
-        
-
-        <div class="box">
-            <h3>contact info</h3>
-            <a href="tel:+250788716164"> <i class="fas fa-phone"></i> 0788716164 </a>
-            <a href="#"> <i class="fas fa-envelope"></i> gateway@gmail.com </a>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> kigali, rwanda  </a>
-        </div>
-
-        <div class="box">
-            <h3>follow us</h3>
-            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
-            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
-            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
-            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
-        </div>
-
-    </div>
-
-
-</section>
-
-<!-- footer section ends -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- custom js file link  -->
-<script src="js/script.js"></script>
-
-</body>
+    <!-- jQuery -->
+    <script src = "resources/jquery-3.5.1.js"></script>
+    <!-- magnific popup -->
+    <script src = "resources/Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
+    <!-- owl carousel -->
+    <script src = "resources/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+    <!-- wow js -->
+    <script src = "resources/WOW-master/dist/wow.js"></script>
+    <!-- custom js -->
+    <script src="js/script.js" ></script>
+  </body>
 </html>
